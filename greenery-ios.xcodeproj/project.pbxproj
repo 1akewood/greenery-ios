@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		DB31B1A52664BA74007567A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB31B1A42664BA74007567A7 /* ContentView.swift */; };
 		DB31B1A72664BA77007567A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB31B1A62664BA77007567A7 /* Assets.xcassets */; };
 		DB31B1AA2664BA77007567A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB31B1A92664BA77007567A7 /* Preview Assets.xcassets */; };
+		DB4F8DC12665B86C0002863D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4F8DC02665B86C0002863D /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		DB31B1A62664BA77007567A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB31B1A92664BA77007567A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB31B1AB2664BA77007567A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB4F8DC02665B86C0002863D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F66CF7A1DE028E8E897A3C6D /* Pods-greenery-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenery-ios.debug.xcconfig"; path = "Target Support Files/Pods-greenery-ios/Pods-greenery-ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,7 +46,6 @@
 				F66CF7A1DE028E8E897A3C6D /* Pods-greenery-ios.debug.xcconfig */,
 				7254565DF406E084CFEE5400 /* Pods-greenery-ios.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -74,6 +75,7 @@
 				DB31B1A62664BA77007567A7 /* Assets.xcassets */,
 				DB31B1AB2664BA77007567A7 /* Info.plist */,
 				DB31B1A82664BA77007567A7 /* Preview Content */,
+				DB4F8DC02665B86C0002863D /* AppDelegate.swift */,
 			);
 			path = "greenery-ios";
 			sourceTree = "<group>";
@@ -207,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4F8DC12665B86C0002863D /* AppDelegate.swift in Sources */,
 				DB31B1A52664BA74007567A7 /* ContentView.swift in Sources */,
 				DB31B1A32664BA74007567A7 /* greenery_iosApp.swift in Sources */,
 			);
